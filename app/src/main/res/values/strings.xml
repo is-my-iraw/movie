@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">film</string>
+    <string name="menu_drawer_open">Drawer open</string>
+    <string name="menu_drawer_close">Drawer close</string>
+    <string name="netflix_logo">Netflix Logo</string>
+    <string name="signin">SIGNIN</string>
+    <string name="netfliix_logo">Netfliix logo</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_Category">Category</string>
+    <string name="nav_Search">search</string>
+    <string name="nav_History">History</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_change_password">Change password</string>
+
+    <string name="nav_drawer_open">open navigation drawer</string>
+    <string name="nav_drawer_close">close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SplashScreen">Splash Screen</string>
+
+
+    <string-array name="numbers">
+        <item>hanh dong</item>
+        <item>vien tuong</item>
+        <item>tinh cam</item>
+    </string-array>
+
+    <string-array name="dienvien">
+        <item>one</item>
+        <item>true</item>
+        <item>two</item>
+    </string-array>
+    <string name="title_activity_category_banner_titile">CategoryBannerTitileActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

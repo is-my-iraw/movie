@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp">
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imgButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_back_24"/>-->
+
+    <VideoView
+        android:id="@+id/PlayVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+<!--    <com.google.android.exoplayer2.ui.PlayerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+
+
+<!--        android:id="@+id/play_view"-->
+<!--        app:resize_mode="fill"-->
+<!--        app:hide_on_touch="true"-->
+<!--        app:show_timeout="5000"-->
+<!--        app:rewind_increment="10000"-->
+<!--        android:background="@color/black"-->
+<!--        app:use_controller="true"/>-->
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:theme="@style/AppTheme.Custom"
+        android:visibility="visible" />
+
+
+<!--    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintLeft_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:videoId="kEs5ChOH2Rw"-->
+<!--        app:autoPlay="true"-->
+<!--        android:id="@+id/activity_main_youtubePlayView"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        />-->
+</RelativeLayout>
